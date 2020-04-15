@@ -24,7 +24,9 @@ export default {
 		this.posts = await fetch('https://my-json-server.typicode.com/chrisboakes/nuxt-vue-demo/politics-articles').then((response) => {
 			return response.json()
 		})
-	}
+	},
+
+	fetchOnServer: true
 }
 </script>
 
