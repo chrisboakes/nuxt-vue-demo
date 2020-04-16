@@ -22,7 +22,14 @@
 export default {
 	data () {
 		return {
+			title: 'Politics',
 			posts: []
+		}
+	},
+
+	head () {
+		return {
+			title: this.title
 		}
 	},
 
