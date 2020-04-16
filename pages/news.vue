@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<h1>News</h1>
-		<h2>This page is client-side rendered</h2>
+		<h2>This page is client side rendered</h2>
 		<p v-if="$fetchState.pending">Fetching posts...</p>
 		<p v-else-if="$fetchState.error">Error while fetching posts: {{ $fetchState.error.message }}</p>
 		<ul v-else>
@@ -11,6 +11,12 @@
 		</ul>
 	</div>
 </template>
+
+<style scoped>
+	a {
+		text-decoration: underline;
+	}
+</style>
 
 <script>
 export default {

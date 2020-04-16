@@ -12,6 +12,12 @@
 	</div>
 </template>
 
+<style scoped>
+	a {
+		text-decoration: underline;
+	}
+</style>
+
 <script>
 export default {
 	data () {

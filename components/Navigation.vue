@@ -8,7 +8,7 @@
 	</nav>
 </template>
 
-<style>
+<style scoped>
 	nav {
 		height: 100%;
 		grid-column: 5/12;
