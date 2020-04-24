@@ -5,7 +5,7 @@
 		<div v-else>
 			<h1>{{ post.title }}</h1>
 
-			<h2>This page is client side rendered</h2>
+			<h2>This page is client-side rendered</h2>
 
 			<p>{{ post.standfirst }}</p>
 
